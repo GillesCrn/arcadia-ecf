@@ -9,7 +9,7 @@ utilisation de Trello via : gillou2831@gmail.com mp : Gilloune28
 
 https://trello.com/invite/b/669e52b4745dd4cdeebc2c37/ATTI8b5e9da2713bbc7d08f209ac38e288ba425CD9E7/modele-kanban-arcadia
 
-GitHub : https://github.com/GillesCrn/Arcadia.git
+GitHub : https://github.com/GillesCrn/arcadia-ecf.git
 
 ECF ARCADIA
 objectifs: -developper la partie front-end d'une application web et web mobile sécurisée -developperla partie back-end d'une application web et web mobile sécurisée
