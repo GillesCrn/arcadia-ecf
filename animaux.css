@@ -1,0 +1,124 @@
+.titre{
+    font-family: cursive;
+    font-optical-sizing: auto;
+    color:rgb(224, 47, 16);
+    font-style: normal;
+   text-align: center;
+   font-size:xx-large;
+  }
+
+
+
+nav {
+    background-color: #e4990f;
+    color: black;
+    padding: 1em;
+}
+
+nav{
+    width: 100%;
+    background-image: url('raton laveur-unsplash.jpg');
+    background-size:35%; 
+    background-position:left;
+    background-repeat: no-repeat; 
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+nav ul li a:hover {
+    background-color:rgb(189, 175, 96);
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+
+
+header {
+    
+    color: black;
+    padding: 15px 20px;
+    text-align: center;
+   
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px;
+}
+
+.grid-item {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+}
+
+.grid-item img {
+    max-width: 70%;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+
+.tooltip {
+    display: none;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    white-space: nowrap;
+    z-index: 10;
+}
+
+.grid-item:hover .tooltip {
+    display: block;
+}
+
+
+footer {
+    background-color:#e4990f ;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position:relative;
+    width: 100%;
+    bottom: 0;
+   
+}

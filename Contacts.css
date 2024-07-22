@@ -1,0 +1,146 @@
+.titre{
+    font-family: cursive;
+    font-optical-sizing: auto;
+    color:rgb(224, 47, 16);
+    font-style: normal;
+   text-align: center;
+   font-size:xx-large;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #2e834d;
+    color: white;
+    padding: 1em;
+}
+
+nav{
+    width: 100%;
+    background-image: url('anaconda-unsplash.jpg');
+    background-size:30%; 
+    background-position:left;
+    background-repeat: no-repeat; 
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+nav ul li a:hover {
+    background-color:rgb(223, 112, 22);
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image:url(caïman-unsplash.jpg); /* Remplacez 'votre-image.jpg' par le chemin de votre image */
+    background-size: cover;
+    background-position: center;
+}
+
+.contactez-nous {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Couleur de fond blanche avec transparence */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    opacity: 0.95; /* Légère transparence */
+}
+
+.contactez-nous h1 {
+    text-align: center;
+    color: #333;
+}
+
+.contactez-nous p {
+    text-align: center;
+    color: #666;
+}
+
+.contactez-nous form div {
+    margin-bottom: 15px;
+}
+
+.contactez-nous label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contactez-nous input[type="text"],
+.contactez-nous input[type="email"],
+.contactez-nous select,
+.contactez-nous textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contactez-nous input[type="text"]:focus,
+.contactez-nous input[type="email"]:focus,
+.contactez-nous select:focus,
+.contactez-nous textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.contactez-nous button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contactez-nous button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+footer {
+    background-color:#2e834d;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position:relative;
+    width: 100%;
+    bottom: 0;
+}

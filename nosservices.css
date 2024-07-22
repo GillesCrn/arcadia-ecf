@@ -1,0 +1,107 @@
+.titre{
+    font-family: cursive;
+    font-optical-sizing: auto;
+    color:rgb(224, 47, 16);
+    font-style: normal;
+   text-align: center;
+   font-size:xx-large;
+  }
+
+
+
+nav {
+    background-color: #0f8823bb;
+    color: white;
+    padding: 1em;
+}
+
+nav{
+    width: 100%;
+    background-image: url('babaouin-unsplash.jpg');
+    background-size:35%; 
+    background-position:left;
+    background-repeat: no-repeat; 
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+nav ul li a:hover {
+    background-color:#8fc033bb;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color:#37db60 ;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+#service1,
+#service2,
+#service3 {
+    
+  background-color: #ffffff;
+    opacity: 0.8;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+
+h2 {
+    color: #37db60 ;
+}
+
+.main{
+    background-image: url(train.jpg);
+    background-size: 90%;
+    
+}
+
+
+
+footer {
+    background-color:#0f8823bb ;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+    position:relative;
+    width: 100%;
+    bottom: 0;
+}

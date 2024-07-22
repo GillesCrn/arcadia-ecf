@@ -1,0 +1,134 @@
+.titre{
+    font-family: cursive;
+    font-optical-sizing: auto;
+    color:rgb(224, 47, 16);
+    font-style: normal;
+   text-align: center;
+   font-size:xx-large;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #e4990f;
+    color: white;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+nav ul li a:hover {
+    background-color:rgb(189, 175, 96);
+}
+nav{
+    width: 100%;
+    background-image: url('lion-unsplash.jpg');
+    background-size:35%; 
+    background-position:left;
+    background-repeat: no-repeat; 
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.theme1, .theme2, .theme3 {
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 100%;
+    height: 400px; 
+}
+
+
+.theme1 {
+    background-image: url('lionneI-unsplash.jpg');
+    
+}
+
+.theme2 {
+    background-image: url('ara-unsplash.jpg');
+}
+
+.theme3 {
+    background-image: url('capibara-unsplash.jpg');
+}
+
+.boutton{
+    
+    display:block;
+    background-color: #c46315;
+    border-radius: 10px;
+    border: 4px double #e99e2e;
+    color: #0a1bb4;
+    text-align:center;
+    font-size: 20px;
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.boutton:hover{
+    background-color: #f7da7b;
+    border: 2px solid #d8b92d;
+    box-shadow: 10px 5px 5px #80ee71;
+    color: #c74e1e;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+footer {
+    background-color:#e4990f ;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position:relative;
+    width: 100%;
+    bottom: 0;
+}
